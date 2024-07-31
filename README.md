@@ -1,25 +1,36 @@
-<p align="center">
-  <a href="https://getbootstrap.com/">
-    <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
-  </a>
-</p>
 
-<h3 align="center">Bootstrap</h3>
 
-<p align="center">
-  Sleek, intuitive, and powerful front-end framework for faster and easier web development.
-  <br>
-  <a href="https://getbootstrap.com/docs/5.3/"><strong>Explore Bootstrap docs »</strong></a>
-  <br>
-  <br>
-  <a href="https://github.com/twbs/bootstrap/issues/new?assignees=-&labels=bug&template=bug_report.yml">Report bug</a>
-  ·
-  <a href="https://github.com/twbs/bootstrap/issues/new?assignees=&labels=feature&template=feature_request.yml">Request feature</a>
-  ·
-  <a href="https://themes.getbootstrap.com/">Themes</a>
-  ·
-  <a href="https://blog.getbootstrap.com/">Blog</a>
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+Bootstrap Example
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container text-center">
+    <a href="https://getbootstrap.com/">
+      <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" class="img-fluid" width="200" height="165">
+    </a>
+    <h3 class="mt-3">Bootstrap</h3>
+    <p>
+      Sleek, intuitive, and powerful front-end framework for faster and easier web development.
+      <br>
+      <a href="https://getbootstrap.com/docs/5.3/" class="btn btn-primary mt-3"><strong>Explore Bootstrap docs »</strong></a>
+    </p>
+    <div class="mt-3">
+      <a href="https://github.com/twbs/bootstrap/issues/new?assignees=-&labels=bug&template=bug_report.yml" class="btn btn-danger">Report bug</a>
+      <a href="https://github.com/twbs/bootstrap/issues/new?assignees=&labels=feature&template=feature_request.yml" class="btn btn-warning">Request feature</a>
+      <a href="https://themes.getbootstrap.com/" class="btn btn-info">Themes</a>
+      <a href="https://blog.getbootstrap.com/" class="btn btn-secondary">Blog</a>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
 
 
 ## Bootstrap 5
